@@ -14,7 +14,7 @@ const Quotes = ({quote, isFetching, error, getQuote}) => {
     if (isFetching){
         return <h2> Fetching quote for you!</h2>;
     }
-
+  
     const handleClick = () => {
         getQuote();
     }
